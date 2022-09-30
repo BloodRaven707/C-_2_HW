@@ -6,7 +6,7 @@ namespace Console_Program
     {
         public static string FindThirdSymbol(int number) {
             string someString = Convert.ToString(number);
-            return (someString.Length > 2) ? $"{someString[1]}" : "третьей цифры нет";
+            return (someString.Length > 2) ? $"{someString[2]}" : "третьей цифры нет";
         }
         
         private static void Main(string[] args)
