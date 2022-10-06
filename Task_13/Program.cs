@@ -4,6 +4,11 @@ namespace Console_Program
 {
     class C_2
     {
+        /// <summary>
+        /// string FindThirdSymbol(int number)
+        /// Принимает: Произвольное число
+        /// Возвращает: 3-ю цифру числа или сообщение
+        /// </summary>
         public static string FindThirdSymbol(int number) {
             string someString = Convert.ToString(number);
             return (someString.Length > 2) ? $"{someString[2]}" : "третьей цифры нет";
